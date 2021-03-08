@@ -1,0 +1,71 @@
+//Home Page Styles
+.landing {
+    height: 943px;
+    background: url('../assets/imgs/Rectangle\ 2.png') no-repeat center;
+    background-size: cover;
+    h4 {
+        font-weight: bold;
+        font-size: 24px;
+        color: $accent_clr;
+        text-align: center;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 48px;
+        color: $txt_clr_light;
+    }
+}
+.contents {
+    .about {
+        h4 {
+            font-weight: bold;
+            font-size: 36px;
+            color: $accent_clr;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        h5 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: 0.055em;
+            color: $accent_clr;
+        }
+    }
+    .process {
+        h4 {
+            font-weight: bold;
+            font-size: 36px;
+            color: $accent_clr;
+        }
+        h5 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        .crd {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
