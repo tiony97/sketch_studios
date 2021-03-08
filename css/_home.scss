@@ -70,4 +70,136 @@
             }
         }
     }
+    .services {
+        @extend .process;
+        .carousel {
+            .slider-item {
+                .img-box {
+                    height: 377px;
+                    .number {
+                        position: absolute;
+                        left: 70.08%;
+                        top: 9.02%;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 64px;
+                        line-height: 78px;
+                        letter-spacing: 0.055em;
+                        color: $accent_clr;
+                    }
+                }
+                .details {
+                    h3 {
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 44px;
+                        /* identical to box height */
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: $accent_clr;
+                    }
+                    p{
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.055em;
+
+                        color: $txt_clr_dark;
+                    }
+                }
+            }
+            .icons {
+                .icn-box {
+                    width: 100px;
+                    height: 80px;
+                    background: $accent_clr;
+                }
+            }
+        }
+    }
+    .projects {
+        @extend .process;
+        .tab {
+            min-height: 80px;
+            background: $accent_clr;
+            h6 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.03em;
+                color: $txt_clr_light;
+                transition: .2s ease-in-out;
+                &:hover {
+                    color: $txt_clr_dark;
+                }
+            }
+            h6.active {
+                color: $txt_clr_dark !important;
+            }
+        }
+        .grid {
+            .prj-item  {
+                
+                height: 300px;
+                img {
+                    z-index: -1;
+                }
+                h6 {
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    letter-spacing: 0.055em;
+                    color: $accent_clr;
+                    text-align: center;
+                }
+                .line {
+                    width: 221px;
+                    height: 0px;
+                    left: 389px;
+                    top: 4556px;
+                    border: 2px solid #FFFFFF;
+                }
+                h2 {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.055em;
+                    color: $txt_clr_light;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+    .contact {
+        @extend .process;
+        form {
+            width: 200%;
+            input {
+                height: 80px;
+                background: $accent_clr;
+                border-radius: 3px;
+                color: $txt_clr_light;
+                outline: none;
+                &::placeholder {
+                    color: $txt_clr_light;
+                    padding-left: 2em;
+                }
+            }
+            textarea {
+                background: #ED1C24;
+                border-radius: 3px;
+                width: 100% !important;
+                color: $txt_clr_light;
+                outline: none;
+                &::placeholder {
+                    color: $txt_clr_light;
+                    padding-left: 2em;
+                    padding-top: 1em;
+                }
+            }
+        }
+    }
 }
