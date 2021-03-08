@@ -16,6 +16,8 @@
     }
 }
 .contents {
+    background: url('../assets/imgs/Background.png') center top no-repeat;
+    background-size: cover;
     .about {
         h4 {
             font-weight: bold;

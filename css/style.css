@@ -118,6 +118,11 @@ footer .links p {
   color: #FFFFFF;
 }
 
+.contents {
+  background: url("../assets/imgs/Background.png") center top no-repeat;
+  background-size: cover;
+}
+
 .contents .about h4 {
   font-weight: bold;
   font-size: 36px;
