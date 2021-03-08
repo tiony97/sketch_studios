@@ -74,11 +74,12 @@
         @extend .process;
         .carousel {
             .slider-item {
+                transition: all .7s ease-in-out !important;
                 .img-box {
                     height: 377px;
                     .number {
                         position: absolute;
-                        left: 70.08%;
+                        left: 65.08%;
                         top: 9.02%;
                         font-style: normal;
                         font-weight: bold;
