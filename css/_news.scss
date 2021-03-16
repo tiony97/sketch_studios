@@ -1,0 +1,75 @@
+.news-box {
+    img {
+        height: 600px;
+    }
+    .txt {
+        h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.055em;
+
+            color: $txt_clr_dark;
+        }
+        p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        .btn {
+            border: 1px solid $accent_clr;
+            box-sizing: border-box;
+            border-radius: 100px;
+            width: 400px;
+            height: 80px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $accent_clr;
+        }
+    }
+}
+
+.accord {
+    border-top: 1px solid $accent_clr;
+    border-bottom: 1px solid $accent_clr;
+    .text {
+        h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+    }
+    .read {
+        border: 1px solid $accent_clr;
+        box-sizing: border-box;
+        border-radius: 100px;
+        width: 400px;
+        height: 80px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $accent_clr;
+    }
+}

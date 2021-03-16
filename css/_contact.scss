@@ -1,0 +1,67 @@
+.contact-landing {
+    .landing-img {
+        height: 943px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .text-area {
+        h5 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.055em;
+
+            color: $accent_clr;
+        }
+        h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 59px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        .vect {
+            img {
+                width: 26.25px;
+                height: 37.5px;
+            }
+        }
+    }
+}
+.contact-form {
+    h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        letter-spacing: 0.055em;
+        color: $txt_clr_dark;
+    }
+    form {
+        input {
+            height: 80px;
+            background: $accent_clr;
+            border-radius: 3px;
+            color: $txt_clr_light;
+            outline: none;
+            &::placeholder {
+                color: $txt_clr_light;
+                padding-left: 2em;
+            }
+        }
+        textarea {
+            background: #ED1C24;
+            border-radius: 3px;
+            width: 100% !important;
+            color: $txt_clr_light;
+            outline: none;
+            &::placeholder {
+                color: $txt_clr_light;
+                padding-left: 2em;
+                padding-top: 1em;
+            }
+        }
+    }
+}

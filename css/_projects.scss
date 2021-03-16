@@ -1,0 +1,103 @@
+.project-showcase {
+    .tab {
+        min-height: 80px;
+        background: $accent_clr;
+        h6 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.03em;
+            color: $txt_clr_light;
+            transition: .2s ease-in-out;
+            &:hover {
+                color: $txt_clr_dark;
+            }
+        }
+        h6.active {
+            color: $txt_clr_dark !important;
+        }
+    }
+    .grid {
+        .prj-item  {
+            
+            height: 300px;
+            img {
+                z-index: -1;
+            }
+            h6 {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                /* identical to box height */
+                letter-spacing: 0.055em;
+                color: $accent_clr;
+                text-align: center;
+            }
+            .line {
+                width: 221px;
+                height: 0px;
+                left: 389px;
+                top: 4556px;
+                border: 2px solid #FFFFFF;
+            }
+            h2 {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0.055em;
+                color: $txt_clr_light;
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+//Single project (projectA.html)
+.project-details {
+    .left {
+        h4 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+        p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+    }
+    .right {
+        .vert {
+            width: 10px;
+            height: 400px;
+            background-color: $accent_clr;
+        }
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.055em;
+            color: $txt_clr_dark;
+        }
+    }
+}
+.project-imgs {
+    .two {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 2em;
+    }
+    .three {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+}

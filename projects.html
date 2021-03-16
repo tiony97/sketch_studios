@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Sketch Studio</title>
 </head>
-<body class="relative  ">
+<body class="relative">
+<div id="app">
     <!--Main navigation section-->
     <header class="main-nav flex items-center justify-between bg-white px-16 z-10">
         <a href="./index.html"><img src="./assets/imgs/sketch-logo 1.png" alt="" class="logo"></a>
@@ -24,101 +25,100 @@
             <a href="#"><img src="./assets/imgs/Group 41.svg" alt="" class="search"></a>
         </div>
     </header>
-
+    
     <!--Page dir-->
-    <div class="dir px-16 pt-56 pb-5 ">
-        <p class="lg:pl-56"><b>Home</b> > Expertise > Architectural Design Consultancy</p>
+    <div class="dir px-16 pt-48 pb-5 ">
+        <p class="lg:pl-56"><b>Home</b> > Projects</p>
     </div>
 
-    <!--Landing section-->
-    <section class="single-exp-landing mx-16 mb-16 flex flex-col items-start justify-center pl-32 relative">
-        <img src="./assets/imgs/Rectangle 35 (3).jpg" alt="">
-        <div class="flex flex-col space-y-3 absolute top-0 mt-16">
-            <p>Hamilton, Harrison & Mathews</p>
-            <p>Upperhill, Nairobi</p>
-        </div>
-        <div class="space-y-2 absolute bottom-0 mb-16">
-            <span class="number">04.</span>
-            <h1 class="">Post contract Supervision Services</h1>
+    <!--Landing Section-->
+    <section class="landing px-16 flex items-center justify-center">
+        <div class="txt flex flex-col items-center justify-center space-y-0">
+            <h4>WELCOME TO SKETCH STUDIOS</h4>
+            <h1>The mastery of beauty expressed in <br> homes & office spaces.</h1>
         </div>
     </section>
 
-    <!--Project Intro-->
-    <section class="intro mx-16 px-20 mb-16 flex flex-col items-start justify-center">
-        <div class="flex items-start justify-center space-x-10">
-            <span class="vert"></span>
-            <div class="text space-y-4">	
-                <p>From drawing concepts, designing, to building a living experience of your ideal setting.</p>
-                <p>Living and Working spaces designed and created to engage, uplift and bring out the best in life.</p>
-                <p>At Sketch Studio, our architectural design has been refined to adapt to the changing environment while maintaining this underlying principles as we add value to the clients we work with.</p>
-                <p>We combine architecture, engineering, experience and collaboration to respond to our client's aspirations. With the right team organized around the needs of every client, we continue to meet expectations with global standards using the latest and state of the art design technologies. You only have to dream it, and we will bring it to life.</p>
-                <p>•	We design Homes - Short Description and Link to projects</p>
-                <p>•	We Design Cities - Short Description and example project</p>
-                <p>•	We Design Offices - A short Description and example  project</p>
-                <p>•	We Design Schools - A short description and example project</p>
-            </div>
-        </div>
-    </section>
-
-    <!--Projects section-->
-    <section class="single-exp-projects mx-16 px-20 flex flex-col items-center justify-center">
-        <div class="label w-full flex items-center justify-center mb-8">
-            <h3 class="text-white uppercase">projects</h3>
+    <!--Project showcase-->
+    <section class="project-showcase py-10 mt-10 px-32 flex flex-col items-center justify-center">
+        <div class="tab w-full flex items-center justify-between px-4 mt-10">
+            <h6 class="uppercase cursor-pointer active">Architectural Design</h6>
+            <h6 class="uppercase cursor-pointer">INTERIOR Design</h6>
+            <h6 class="uppercase cursor-pointer">PROJECT MANAGEMENT</h6>
+            <h6 class="uppercase cursor-pointer">POST CONTRACT SUPERVISION</h6>
         </div>
         <div class="grid grid-cols-3 gap-10 justify-center content-center items-center object-center center mt-16">
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/Rectangle 19.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">THE PINNACLE</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">UPPERHILL, NAIROBI</h2>
+                <a href="./ProjectA.html" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">THE PINNACLE</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">UPPERHILL, NAIROBI</h2>
+                </a>   
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 20.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">LAKEVIEW 2</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">LAKEVIEW ESTATE</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">LAKEVIEW 2</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">LAKEVIEW ESTATE</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 21.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">RUNDA HOUSE 2</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">RUAKA DRIVE, RUNDA</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">RUNDA HOUSE 2</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">RUAKA DRIVE, RUNDA</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 22.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">TUNE HOTEL</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">RHAPTA ROAD, WESTLANDS</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">TUNE HOTEL</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">RHAPTA ROAD, WESTLANDS</h2>
+                </a> 
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 23.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">ENCEE PLACE</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">MUGUGA GREEN BROOKSIDE</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">ENCEE PLACE</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">MUGUGA GREEN BROOKSIDE</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 24.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">GENERAL MATHENGE</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">JESSANI VILLAS</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">GENERAL MATHENGE</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">JESSANI VILLAS</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 25.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">CAPITAL CLUB</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">IMPERIAL COURT</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">CAPITAL CLUB</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">IMPERIAL COURT</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 26.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">FUTURES FIRST</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">DELTA CORNER, WESTLANDS</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">FUTURES FIRST</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">DELTA CORNER, WESTLANDS</h2>
+                </a>
             </div>
             <div class="prj-item flex flex-col items-center justify-center space-y-4 relative p-5">
                 <img src="./assets/imgs/grid/Rectangle 27.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-                <h6 class="uppercase">SCANAD</h6>
-                <span class="line"></span>
-                <h2 class="uppercase">THE CHANCERY, VALLEY ROAD</h2>
+                <a href="#" class="flex flex-col items-center justify-center space-y-4">
+                    <h6 class="uppercase">SCANAD</h6>
+                    <span class="line"></span>
+                    <h2 class="uppercase">THE CHANCERY, VALLEY ROAD</h2>
+                </a>
             </div>
         </div>
     </section>
@@ -193,5 +193,6 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 </html>
