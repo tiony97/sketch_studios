@@ -881,4 +881,32 @@ footer .links p {
   text-transform: uppercase;
   color: #ED1C24;
 }
+
+.news-content h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.055em;
+  color: #1C1C1C;
+}
+
+.news-content p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.055em;
+  color: #1C1C1C;
+}
+
+.news-content .icons img:nth-child(3), .news-content .icons img:nth-child(4) {
+  width: 18px;
+  height: 18px;
+  background: #ED1C24;
+  border-radius: 2px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 2px;
+}
 /*# sourceMappingURL=style.css.map */

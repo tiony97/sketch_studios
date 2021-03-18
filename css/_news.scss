@@ -73,3 +73,36 @@
         color: $accent_clr;
     }
 }
+
+//NewsA styles
+.news-content {
+    h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.055em;
+        color: $txt_clr_dark;
+    }
+    p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.055em;
+        color: $txt_clr_dark;
+    }
+    .icons {
+        img {
+            &:nth-child(3),
+            &:nth-child(4) {
+                width: 18px;
+                height: 18px;
+                background: $accent_clr;
+                border-radius: 2px;
+                object-fit: contain;
+                padding: 2px;
+            }
+        }
+    }
+}
