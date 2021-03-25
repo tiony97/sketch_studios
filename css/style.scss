@@ -34,11 +34,23 @@ body{
   height: 176px;
   left: 0px;
   top: 0px;
+  .right {
+    border-top: 0.25px solid #333333;
+    border-bottom: 0.25px solid #333333;
+    padding: .5em 1em;
+  }
   nav {
     a {
       color: $txt_clr_dark;
       font-size: 14px;
       font-weight: 700; 
+    }
+    .line {
+      background-color: #333333;
+      width: 0.25px;
+      height: 50px;
+      position: absolute;
+      right: 0;
     }
   }
 }
@@ -80,6 +92,13 @@ footer {
         letter-spacing: 0.055em;
         color: $txt_clr_dark;
       }
+    }
+    .top1 {
+      border-top: 0.25px solid #000000;
+    }
+    .top2 {
+      border-top: 0.25px solid #000000;
+      border-bottom: 0.25px solid #000000;
     }
     p {
       font-style: normal;

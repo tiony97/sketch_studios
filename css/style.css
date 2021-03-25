@@ -36,10 +36,24 @@ body {
   top: 0px;
 }
 
+.main-nav .right {
+  border-top: 0.25px solid #333333;
+  border-bottom: 0.25px solid #333333;
+  padding: .5em 1em;
+}
+
 .main-nav nav a {
   color: #1C1C1C;
   font-size: 14px;
   font-weight: 700;
+}
+
+.main-nav nav .line {
+  background-color: #333333;
+  width: 0.25px;
+  height: 50px;
+  position: absolute;
+  right: 0;
 }
 
 footer {
@@ -80,6 +94,15 @@ footer .links .top a {
   /* identical to box height */
   letter-spacing: 0.055em;
   color: #1C1C1C;
+}
+
+footer .links .top1 {
+  border-top: 0.25px solid #000000;
+}
+
+footer .links .top2 {
+  border-top: 0.25px solid #000000;
+  border-bottom: 0.25px solid #000000;
 }
 
 footer .links p {
@@ -344,6 +367,11 @@ footer .links p {
   padding-top: 1em;
 }
 
+.exp-wrap {
+  background: url("../assets/imgs/Background.png") center top no-repeat;
+  background-size: cover;
+}
+
 .dir p {
   font-style: normal;
   font-weight: 600;
@@ -515,7 +543,7 @@ footer .links p {
 
 .intro p {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.055em;
